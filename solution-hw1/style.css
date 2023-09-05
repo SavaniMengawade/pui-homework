@@ -1,0 +1,170 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.logo{
+    width: 400px;
+    padding: 15px;
+}
+
+.navElements{
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+hr{
+    height: 5px;
+    background-color: black;
+}
+
+.highlight{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/* --------------------------------Product Cards --------------------------------*/
+
+
+.product{
+    width: 400px;
+    border: 4px solid black;  
+    /* border for image */
+}
+
+.card{
+    margin: auto;
+    width: 408px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.center{
+    margin: auto;
+}
+
+.paraHeading{
+    margin: auto;
+    width: 420px;
+    text-align: center;
+    padding: 20px 0;
+    font-size: 27px;
+}
+
+.card:hover{
+    background-color: yellow;
+    cursor: pointer;
+    & .productTitle{ font-weight: bold;}
+}
+
+/* https://www.w3.org/TR/css-nesting-1/ */
+
+
+.productTitle{
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.productPrice{
+    font-size: 18px;
+}
+
+/* --------------------------------Product Detail --------------------------------*/
+
+.productDetail{
+    width: 600px;
+    border: 4px solid black;  
+}
+
+.addCart{
+    display: inline-flex;
+    margin: 30px;
+}
+
+.details{
+    margin: auto;
+    width: 600px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.quote{
+   font-size: 22px; 
+   margin: 40px 0;}
+
+.allText{
+    width: 300px;
+    margin: auto;
+}
+
+.dropDowns{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+select{
+    width: 280px;
+    height: 45px;
+    font-size: 20px;
+}
+
+.yellowButton{
+    background-color: yellow;
+    width: 150px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.yellowButton:hover{
+    cursor: pointer;
+}
+
+.cartPrice{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+/* --------------------------------Product Cart --------------------------------*/
+
+
+.productCart{
+    width: 200px;
+    border: 4px solid black; 
+}
+
+.cart{
+    margin: auto;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.cartCard{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 60px;
+}
+
+.remove{
+    font-size: 15px;
+}
+
+.price{
+    font-size: 24px;
+}
+.shortLine{
+    width: 800px;
+}
