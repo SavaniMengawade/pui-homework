@@ -65,9 +65,13 @@ a{
 .card:hover{
     background-color: yellow;
     cursor: pointer;
-    & .productTitle{ font-weight: bold;}
+    /* & .productTitle{ font-weight: bold;} */
+    font-weight: bold;
 }
 
+.noBold{
+    font-weight: 400;
+}
 /* https://www.w3.org/TR/css-nesting-1/ */
 
 
