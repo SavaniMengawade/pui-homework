@@ -138,7 +138,7 @@ select{
 }
 
 .cartCard img{
-    width: 165px;
+    width: 200px;
     border: 4px solid black;
 }
 
@@ -164,18 +164,21 @@ select{
 
 .cartCard{
     display: flex;
+    margin-top: 10px;
 }
 
 .remove{
     margin-top: 0px;
     font-weight: 550;
+    text-decoration: underline;
 }
 
 
 .cartDetail{
     margin-left: 40px;
     display: flex;
-    font-size: 25px;
+    font-size: 20px;
+    margin-top: 45px;
 }
 
 .price{
@@ -190,16 +193,22 @@ select{
 
 .cartTotalPrice{
     display: flex;
-    font-size: 25px;
+    font-size: 20px;
+    width: 780px;
+    text-align: right;
 }
 
 .total{
     justify-content: right;
 }
 
+.cartTotal{
+    width: 715px;
+}
+
+
 .cartTotal button{
     float: right;
-    margin-right: 90px;
 }
 
 .totalOne{
@@ -208,7 +217,7 @@ select{
 }
 
 .totalTwo{
-    margin-left: 310px;
+    margin-left: 360px;
 }
 
 .cartBody{
