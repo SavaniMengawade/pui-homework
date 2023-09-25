@@ -74,13 +74,7 @@ select{
     border: 4px solid black;  
 }
 
-.rowFirst{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.rowSecond{
+.row{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -94,7 +88,7 @@ select{
 
 .productTitle{
     text-decoration: underline;
-    font-size: 21px;
+    font-size: 20px;
 }
 
 .productDetail{
@@ -124,7 +118,6 @@ select{
 
 .addCart{
     display: flex;
-    margin-top: 80px;
     margin: 20px;
 }
 
@@ -143,7 +136,8 @@ select{
 }
 
 .cartPrice{
-    margin: 120px 20px 0 0;
+    margin: 90px 10px 0 0;
+    width: 100px;
 }
 
 .addCart p{
@@ -151,7 +145,7 @@ select{
 }
 
 .cartButton{
-    margin: 105px 20px 0 0;
+    margin: 75px 20px 0 0;
 }
 
 

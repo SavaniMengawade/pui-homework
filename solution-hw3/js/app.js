@@ -62,7 +62,6 @@ function calcPackSize() {
 function calcPrice(gp,pp){
     currentPrice = 2.49;
     currentPrice = ((currentPrice+gp)*pp).toFixed(2);
-    console.log("this is current Price " + currentPrice);
     document.getElementById('currentCartPrice').innerHTML = currentPrice;
 }
 
