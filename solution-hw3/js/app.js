@@ -38,7 +38,7 @@ for (let j in packChoice)
 {
     let optionPC = document.createElement("option");
     optionPC.textContent = packChoice[j].size;
-    // optionPC.value = packChoice[j].value;
+    optionPC.value = packChoice[j].value;
     selectPackSize.appendChild(optionPC);
 }
 
