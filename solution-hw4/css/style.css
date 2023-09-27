@@ -1,0 +1,241 @@
+/*-------------------------------- Navigation Bar --------------------------------*/
+
+body{
+    font-family: 'PT Sans';
+}
+
+
+.logo{
+    width: 400px;
+}
+
+.navBar{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.navText{
+    display: flex;
+    justify-content: right;
+    padding: 0 100px;
+    font-size: 20px;
+}
+
+.navText p{
+    margin: 40px 30px;
+}
+
+.navElement{
+    flex-grow: 1;
+}
+
+.highlight{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+/*-------------------------------- Common Elements--------------------------------*/
+
+.selects{
+    margin-top: 80px;
+}
+
+hr{
+    height: 5px;
+    background-color: black;
+    margin-left: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+select{
+    width: 280px;
+    height: 45px;
+    font-size: 20px;
+    border: 2px solid black; 
+}
+
+/*-------------------------------- Product Gallery --------------------------------*/
+
+
+.quote2{
+    font-size: 30px; 
+    margin: 40px 0;
+    margin-left: 20px;
+}
+
+.card img{
+    height: 285px;
+    border: 4px solid black;  
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    padding: 0px 5px;
+    padding-top: 5px;
+    margin: 0 20px 50px 20px;
+}
+
+.productTitle{
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+.productDetail{
+    width: 600px;
+    border: 4px solid black; 
+}
+
+.productPrice{
+    font-size: 20px;
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*-------------------------------- Product Detail --------------------------------*/
+
+
+.allText{
+    margin-left: 70px;
+    font-size: 25px;
+    width: 30%;
+    
+}
+
+.addCart{
+    display: flex;
+    margin: 20px;
+}
+
+.yellowButton{
+    background-color: yellow;
+    width: 150px;
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+}
+
+.cartCard img{
+    width: 200px;
+    border: 4px solid black;
+}
+
+.cartPrice{
+    margin: 90px 10px 0 0;
+    width: 100px;
+}
+
+.addCart p{
+    font-weight: bold;
+}
+
+.cartButton{
+    margin: 75px 20px 0 0;
+}
+
+
+.detailTitle{
+    width: 280px;
+}
+/*-------------------------------- Shopping Cart--------------------------------*/
+
+
+.cart{
+    margin-left: 20px;
+}
+
+.cartCard{
+    display: flex;
+    margin-top: 10px;
+}
+
+.remove{
+    margin-top: 0px;
+    font-weight: 550;
+    text-decoration: underline;
+}
+
+
+.cartDetail{
+    margin-left: 40px;
+    display: flex;
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.price{
+    align-items: center;
+    margin-left: 30px;
+}
+
+
+.content{
+    width: 355px;
+}
+
+.cartTotalPrice{
+    display: flex;
+    font-size: 20px;
+    width: 780px;
+    text-align: right;
+}
+
+.total{
+    justify-content: right;
+}
+
+.cartTotal{
+    width: 715px;
+}
+
+
+.cartTotal button{
+    float: right;
+}
+
+.totalOne{
+    margin-top: 0;
+    margin-left: 265px;
+}
+
+.totalTwo{
+    margin-left: 350px;
+}
+
+.cartBody{
+    margin-left: 400px;
+}
+
+
+
+/*-------------------------------- Hover--------------------------------*/
+
+.card:hover{
+    background-color: yellow;
+    cursor: pointer;
+    /* & .productTitle{ font-weight: bold;} */
+    font-weight: bold;
+}
+
+.yellowButton:hover{
+    cursor: pointer;
+}
+
+.noBold{
+    font-weight: 400;
+}
