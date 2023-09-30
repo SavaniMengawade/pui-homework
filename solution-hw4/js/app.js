@@ -5,7 +5,7 @@ class Roll {
         this.size = packSize;
         this.basePrice = basePrice;
     }
-}
+};
 
 
 //dictionary for populating choices
@@ -22,7 +22,6 @@ let packChoice = {
     "six": {size:"6", value:5},
     "twelve": {size:"12", value:10},
 };
-
 
 let selectGlazing = document.getElementById('selectGlazing');
 selectGlazing.addEventListener('change', calcGlazingPrice);
