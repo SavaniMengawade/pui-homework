@@ -4,9 +4,10 @@
   <title>Product Detail</title>
   
   <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/rollsData.js"></script>
   <script defer src="./js/app.js"></script>
   <script defer src="./js/cart.js"></script>
-
+  
 
     <body>
 
@@ -20,46 +21,40 @@
                 <a href="ShoppingCart.html"><p id="cartBtn">CART</p></a>
             </div>
             <hr>
-            <p class="quote2">Our Handmade Cinnamon Rolls</p>
+            <p id= "rollTitle" class="quote2">Our Handmade Cinnamon Rolls</p>
         </div>
       </div>
 
 
         <div class="details">
           <div class="productImage">
-                <img src="../assets/products/original-cinnamon-roll.jpg" alt="" class="productDetail">
+                <img src="../assets/products/original-cinnamon-roll.jpg" alt="a Cinnamon roll" class="productDetail" id="rollProductImage" >
           </div>
             
           <div class="allText">
               <p class="detailTitle">Customize our delicious hand-made roll to your liking!</p>
               <div class="selects">
 
-                <div class="dropDowns">
+                <div class="dropDowns" >
                   <p class="dropDownTitle">Glazing:</p>
-                  <select>
-                    <option>Keep Original</option>
-                    <option>Sugar Milk</option>
-                    <option>Vanilla Milk</option>
-                    <option>Double Chocolate</option>
+                  <select id="selectGlazing">
                   </select>
         
                 </div>
         
                 <div class="dropDowns">
                   <p class="dropDownTitle">Pack size:</p>
-                  <select>
-                    <option>1</option>
-                    <option>3</option>
-                    <option>6</option>
-                    <option>12</option>
+                  <select id="selectPackSize"> 
+
                   </select>
                 </div>
+
               </div>
               
             
             <div class="addCart">
-              <p class="cartPrice">$2.49</p>
-              <button class="yellowButton cartButton">Add to Cart</button>
+              <p class="cartPrice">$<span id="currentCartPrice">2.49</span></p>
+              <button class="yellowButton cartButton" id="addCartButton">Add to Cart</button>
             </div>
       
           </div>
