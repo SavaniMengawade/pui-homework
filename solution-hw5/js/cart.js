@@ -1,4 +1,6 @@
 let cartAdd = [];
+//cart array
+
 
 class Roll {
     constructor(rollType, rollGlazing, packSize, rollPrice) {
@@ -9,6 +11,7 @@ class Roll {
     }
 }
 
+
 let packChoice = {
     1: 1,
     3: 3,
@@ -16,7 +19,7 @@ let packChoice = {
     12: 10,
 };
 
-
+//four roll objects
 let originalRoll = new Roll("Original", "Sugar Milk", 1, 2.49);
 let walnutRoll = new Roll("Walnut", "Vanilla Milk", 12, 3.99);
 let raisinRoll = new Roll("Raisin", "Sugar Milk", 3, 2.99);
@@ -59,7 +62,7 @@ function addItemsToCart(rollSelect){
         const cartElement = document.querySelector('.cart');
         cartElement.appendChild(rollSelect.element);
         updateElement(rollSelect);
-        priceCart.innerText = "$ " + totalCartPrice;
+        priceCart.innerText = "$ " + totalCartPrice.toFixed(2);
         
 }
 
