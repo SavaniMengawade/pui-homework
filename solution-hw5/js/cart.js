@@ -71,13 +71,18 @@ console.log(cartAdd);
 
 function removeElement(rollSelect){
     console.log("Index : " + cartAdd.indexOf(rollSelect));
+
+    //edge case
+    if(cartAdd.length !=0){
+        rollSelect.element.remove();
     
-    rollSelect.element.remove();
+        cartAdd.splice(cartAdd.indexOf(rollSelect),1);
+        // console.log(updatedPrice(cartAdd));
+        priceCart.innerText = "$ " + updatedPrice(cartAdd).toFixed(2);
+        console.log(cartAdd);
+    }
     
-    cartAdd.splice(cartAdd.indexOf(rollSelect),1);
-    // console.log(updatedPrice(cartAdd));
-    priceCart.innerText = "$ " + updatedPrice(cartAdd).toFixed(2);
-    console.log(cartAdd);
+    
 }
 
 function updateElement(rollSelect){
