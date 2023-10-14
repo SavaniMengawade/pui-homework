@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+  <title>Shopping Cart</title>
+  
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="./js/rollsData.js"></script>
+  <script defer src="./js/cart.js"></script>
+  
+
+    <body id="cartBodyID">
+
+
+        <div class="navBar">
+            <div class="logo">
+               <a href="ProductGallery.html"><img src="../assets/logo/logo-01.svg" alt="Logo Img"></a>
+            </div>
+
+            <div class="navElement">
+                <div class="navText"> 
+                    <a href="ProductGallery.html"><p>PRODUCTS</p></a>
+                    <p><span class="highlight">CART</span></p>
+                </div>
+
+                <hr>
+
+                <p class="quote2">Shopping Cart</p>
+
+            </div>
+        </div>
+
+            <div id = "cartBody" class="cartBody">
+                <div class="cart">
+                    <template id="cartCardTemplate">
+                        <div class="cartCard">
+                            <div class="cartImg">
+                                <img src="../assets/products/original-cinnamon-roll.jpg" alt="original-cinnamon-roll" class="productCart">
+                                <div id="remove"><p class="remove">Remove</p></div>
+                            </div>
+                            <div class="cartDetail">
+                                <div class="cartDetailText">
+                                    <p id="cartContent" class="content">Original Cinnamon Roll </p>
+                                    <p id="cartGlaze">Glazing: Keep Original </p>
+                                    <p id="cartPack">Pack Size: 1</p> 
+                                </div>
+                                
+                                <p class="price"><br>$ 2.48</p>
+                            </div>
+                        </div>
+                    </template>
+                  </div>
+
+                  <hr>
+
+                    <div class="cartTotalPrice">
+                        <div class="totalOne"><p>Total</p></div>
+                        <div class="totalTwo"><p>$00.00</p> </div>
+                    </div>
+
+
+                    <div class="cartTotal">
+                        <button class="yellowButton">Checkout</button>
+                    </div>
+            </div>
+        
+    </body>
+</html>
