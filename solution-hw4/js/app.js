@@ -73,6 +73,7 @@ const params = new URLSearchParams(queryString);
 const rollType = params.get('roll');
 
 
+
 // console.log(rollType);
 
 const rollTitleElement = document.getElementById('rollTitle');

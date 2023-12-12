@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="./js/moodDB.js"></script>
+    <script defer src="./js/player.js"></script>
+    <script defer src="./js/change.js"></script>
+    <script src="https://unpkg.com/howler@2.2.3/dist/howler.js"></script>
+    <script defer src="https://kit.fontawesome.com/044f7eb949.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+    <title>Choose Moods</title>
+</head>
+<body id="musicPlayer">
+    <div class="chooseMoodHeading">
+        <a href="chooseMood.html"><h2 id="newHeading">MUSEFUL MINDSCAPE</h2></a>
+    </div>
+
+
+    <div class="moodList">
+        <p id="happy">HAPPY</p>
+        <p id="romantic">ROMANTIC</p>
+        <p id="relaxed">RELAXED</p>
+        <p id="emo">EMO</p>
+        <p id="motivated">MOTIVATED</p>
+        <p id="energized">ENERGIZED</p>
+        <p id="focus">FOCUS</p>
+        <p id="chill">CHILL</p>
+    </div>
+
+    <div class="musicAnimation">
+        <img class="moodImg" src="assets/energized.svg" alt="Mood Image">
+    </div>
+
+    <div class="songInfo">
+        <p>Now Playing</p>
+        <p class="genreTitle" id="genreTitle">Energizing Tunes</p>
+    </div>
+
+    
+
+    <div class="player">
+        <input type = "range" name="range" id="myProgressBar" value="0" min="0" max="100">
+    </div>
+
+    <div class="time">
+        <p id="currentTimeDisplay">00:00</p>
+        <p id="durationDisplay">00</p>
+    </div>
+
+
+    <div class="musicIcons">
+        <img class="icons" id="backward" src="assets/backward-step-solid.svg" alt="Back Icon">
+        <img class="icons" id="masterPlay" src="assets/play-solid.svg" alt="Play/Pause Icon">
+        <img class="icons" id = "forward" src="assets/forward-step-solid.svg" alt="Forward Icon">
+    </div>
+
+
+
+    
+</body>
+</html>

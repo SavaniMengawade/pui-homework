@@ -1,0 +1,465 @@
+/***********************************Landing Page*****************************/
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+h2{
+    font-family: 'Koulen', sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+}
+
+.landingPage{
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    margin-top: 300px;
+    font-weight: 600;
+}
+
+.landingPage h2{
+    font-size: 70px;
+}
+
+
+/***********************************Choosing Mood*****************************/
+
+.chooseMoodBody{
+    opacity: 1;
+    transition: opacity 1.5s ease-in-out; 
+    margin: auto;
+}
+
+
+.chooseMoodHeading{
+    text-align: center;
+    color: #2e2e2e;
+    display: block;
+    margin-top: 100px;
+}
+
+.chooseMoodHeading h2{
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0;
+}
+.chooseMoodHeading p{
+    font-size: 22px;
+    font-weight: 200;
+    margin: 0;
+    opacity: 80%;
+} 
+
+
+.moodChoices{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px 100px 20px 100px;
+    justify-content: center;
+}
+
+.moodCard{
+    font-family: 'Jost', sans-serif;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: aliceblue;
+    margin: 0 20px;
+    margin-top: 40px;
+}
+
+
+.happy{
+    background-color: #FAF885;
+    padding: 2px 40px 10px 40px;
+    color: #E4B326;
+}
+
+.romantic{
+    background-color: #F39C9B;
+    padding: 2px 40px 10px 40px;
+    color: #D45A64;
+}
+
+.relaxed{
+    background-color: #B7F3E1;
+    padding: 2px 40px 10px 40px;
+    color: #3AB9B3;
+}
+
+.emo{
+    background-color: #89CEE8;
+    padding: 2px 40px 10px 40px;
+    color: #408DD3;
+}
+
+.motivated{
+    background-color: #ECB58E;
+    padding: 2px 40px 10px 40px;
+    color: #DF6F2E;
+}
+
+.energized{
+    background-color: #DCF094;
+    padding: 2px 40px 10px 40px;
+    color: #588F2B;
+}
+
+.focus{
+    background-color: #FFE0BB;
+    padding: 2px 40px 10px 40px;
+    color: #F8A544;
+}
+
+.chill{
+    background-color: #BFB7F3;
+    padding: 2px 40px 10px 40px;
+    color: #725FE7;
+}
+
+
+.moodCard:hover{
+    transform:scale(1.1);
+    cursor: pointer;
+    transition: 500ms;
+}
+
+.moodCard{
+    transition: 500ms;
+}
+
+
+
+a{
+    text-decoration: none;
+}
+
+
+.textContent{
+    padding-top: 150px;
+    margin: 0px 300px 0 300px;
+}
+
+.textContent h4{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.text{
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.textContent p{
+    font-size: 19px;
+    margin-bottom: 40px;
+    margin-top: 15px;
+}
+
+
+.scrollTo{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.scrollTo p{
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
+#contentToRead{
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 600;
+    margin-bottom: 0;
+  }
+
+  a{
+    color: #2e2e2e;
+  }
+
+
+  #speech{
+    background-color: white;
+    border: 1px solid #2e2e2e;
+    font-size: 22px;
+    padding: 5px 10px;
+  }
+
+
+/***********************************-----MUSIC PLAYER-------*****************************/
+
+
+.spinner img{
+    height: 150px;
+    animation: spin 15s linear infinite;
+    transition: 500ms;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+        transition: 500ms;
+       }
+    100%{
+        transform: rotate(360deg);
+        transition: 500ms;
+       }
+}
+
+.moodList{
+    justify-content: center;
+    display: inline;
+    display: flex;
+    margin-top: 40px;
+    display: flex;
+}
+
+
+.moodList p{
+    margin: 0 40px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#musicPlayer{
+    background-color: #DCF094;
+    margin-top: 0;
+}
+
+.musicAnimation img{
+    height: 300px;
+}
+
+.musicAnimation{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#myProgressBar{
+    align-items: center;
+}
+
+.player{
+    display: flex;
+    justify-content: center;
+    margin: 60px 0 0 0;
+}
+
+.player input{
+    width: 600px;
+}
+
+.musicIcons img{
+    height: 40px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.musicIcons{
+    text-align: center;
+}
+
+.songInfo{
+    text-align: center;
+    margin-top: 30px;
+    color: #588F2B;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.genreTitle{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: -10px;
+}
+
+#newHeading{
+    margin-top: -40px;
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+
+.time{
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#currentTimeDisplay{
+    margin-right: 500px;
+}
+
+
+
+
+
+
+
+/*______________________________________________Text to speech_______________________*/
+
+
+.readIcon img{
+    height: 42px;
+}
+
+
+
+#firstPageBackground {
+	background: linear-gradient(-45deg, #3AB9B3, #418ED3, #BFB7F3, #E4B326, #DF6F2E);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+  .content {
+    position:relative;
+    height:20vh;
+    text-align:center;
+    background-color: white;
+  }
+  
+
+
+/* -------------------------------------------Music Progress Bar---------------------------------------- */
+#myProgressBar {
+    -webkit-appearance: none;
+    width: 600px;
+    height: 2px;
+    margin: 20px 0;
+    background: transparent;
+  }
+  
+  /* Track */
+  #myProgressBar::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 6px;
+    cursor: pointer;
+    background: #2e2e2e; 
+    border-radius: 5px;
+  }
+  
+  /* Thumb */
+  #myProgressBar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 13px;
+    height: 14px;
+    border-radius: 50%;
+    background: #2e2e2e; 
+    cursor: pointer;
+    margin-top: -3px;
+  }
+
+
+/* -------------------------------------------Footer---------------------------------------- */
+
+.fixed-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f4f4f4;
+    color: #2e2e2e;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: 0px -5px 10px rgba(230, 230, 230, 0.1);
+  }
+
+
+
+
+
+
+
+  /*---------------------Responsiveness---------------------------*/
+  @media (max-width: 1200px) {
+
+    .body{
+        margin: 0;
+    }
+    #newHeading{
+      font-size: 38px;
+    }
+    .moodList{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .moodList p{
+        margin: 0 20px 25px 20px;
+        font-size: 16px;
+    }
+    .musicAnimation img{
+        height: 200px;
+        margin-top: 0px;
+    }
+    .musicAnimation{
+        margin-top: 30px;
+    }
+    .songInfo p{
+        font-size: 20px;
+    }
+    #genreTitle{
+        font-size: 25px;
+    }
+    #myProgressBar{
+        width: 300px;
+        margin-top: 0;
+    }
+    .player{
+        margin-top: 60px;
+    }
+    #currentTimeDisplay{
+        margin-right: 210px;
+    }
+    .time p{
+        margin-top: -2px;
+    }
+    .musicIcons{
+        text-align: center;
+    }
+    .musicIcons img{
+        height: 40px;
+    }
+    .chooseMoodBody{
+        margin: 0;
+    }
+    .scrollTo p{
+        font-size: 20px;
+        margin-top: 50px;
+        
+    }
+    .textContent{
+        margin: 100px 60px 100px 60px;
+    }
+    .textContent h4{
+        font-size: 40px;
+    }
+    #speech{
+        background-color: white;
+        border: 1px solid #2e2e2e;
+        font-size: 16px;
+        padding: 5px 10px;
+        margin-bottom: 15px;
+      }
+  }
