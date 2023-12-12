@@ -1,6 +1,6 @@
 const moodDB = {
     "Happy": {
-        'color' : '#E4B326',
+        'color' : '#644E0C',
         'bgColor' : '#FAF885',
         'mood' : 'happy',
         'imgFile':'assets/happy.svg',
@@ -8,7 +8,7 @@ const moodDB = {
         'index': 0
     },
     "Romantic": {
-        'color' : '#D45A64',
+        'color' : '#5D181E',
         'bgColor' : '#FFA8A7',
         'mood' : 'romantic',
         'imgFile':'assets/romantic.svg',
@@ -16,7 +16,7 @@ const moodDB = {
         'index': 1
     },
     "Relaxed": {
-        'color' : '#3AB9B3',
+        'color' : '#184E4E',
         'bgColor' : '#B7F3E1',
         'mood' : 'relaxed',
         'imgFile':'assets/relaxed.svg',
@@ -24,7 +24,7 @@ const moodDB = {
         'index': 2
     },
     "Emo": {
-        'color' : '#418ED3',
+        'color' : '#1C4D78',
         'bgColor' : '#C1EEFF',
         'mood' : 'emo',
         'imgFile':'assets/emo.svg',
@@ -32,7 +32,7 @@ const moodDB = {
         'index': 3
     },
     "Motivated": {
-        'color' : '#DF6F2E',
+        'color' : '#642C0C',
         'bgColor' : '#FFC59C',
         'mood' : 'motivated',
         'imgFile':'assets/motivated.svg',
@@ -40,7 +40,7 @@ const moodDB = {
         'index': 4
     },
     "Energized": {
-        'color' : '#588F2B',
+        'color' : '#335219',
         'bgColor' : '#DCF094',
         'mood' : 'energized',
         'imgFile':'assets/energized.svg',
@@ -48,7 +48,7 @@ const moodDB = {
         'index': 5
     },
     "Focus": {
-        'color' : '#F8A544',
+        'color' : '#6F3E06',
         'bgColor' : '#FFE0BB',
         'mood' : 'focus',
         'imgFile':'assets/focus.svg',
@@ -56,7 +56,7 @@ const moodDB = {
         'index': 6
     },
     "Chill": {
-        'color' : '#725FE7',
+        'color' : '#25158E',
         'bgColor' : '#BFB7F3',
         'mood' : 'chill',
         'imgFile':'assets/chill.svg',
